@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# maintainer: https://github.com/Chasing66/peer2profit
+# maintainer: https://github.com/coreff/peer2profit
 
 function set_vps_swap() {
     # Set swap size as two times of RAM size automatically
