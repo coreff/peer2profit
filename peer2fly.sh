@@ -123,7 +123,7 @@ function install_docker_dockercompose() {
 
 function download_compose_file()
 {
-    wget -Nnv https://raw.githubusercontent.com/Chasing66/peer2profit/main/docker-compose.yml &>/dev/null
+    wget -Nnv https://raw.githubusercontent.com/coreff/peer2profit/main/docker-compose.yml &>/dev/null
 }
 
 function set_peer2profit_email()
