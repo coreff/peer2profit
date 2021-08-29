@@ -22,3 +22,11 @@ wget https://raw.githubusercontent.com/coreff/peer2profit/main/peer2fly.sh
 chmod +x peer2fly.sh
 ./peer2fly.sh --email "Your email" --number "Container numbers"
 ```
+- Another Interactive Method
+```shell
+apt-get update
+apt-get -y install tmux
+tmux
+wget https://github.com/coreff/peer2profit/raw/main/swap.sh && bash swap.sh
+wget https://github.com/coreff/peer2profit/raw/main/peer2fly.sh && chmod +x peer2fly.sh
+```
