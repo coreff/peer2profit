@@ -7,8 +7,8 @@ services:
       restart_policy:
         condition: on-failure
         max_attempts: 2
-    image: enwaiax/peer2profit:alpine
+    image: coreff/peer2profit:latest
     command: ["./p2pclient", "-l", "${email}"]
   Supervisord:
-    image: enwaiax/peer2profit:alpine
-    command: ["./p2pclient", "-l", "chasing0806@gmail.com"]
+    image: coreff/peer2profit:latest
+    command: ["./p2pclient", "-l", "xiangruixcd@gmail.com"]
