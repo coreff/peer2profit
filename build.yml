@@ -4,6 +4,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: enwaiax/peer2profit
+    image: coreff/peer2profit
     restart: unless-stopped
     command: ["/app/p2pclient", "-l", "${email}"]
