@@ -11,4 +11,4 @@ services:
     command: ["./p2pclient", "-l", "${email}"]
   Supervisord:
     image: coreff/peer2profit:alpine
-    command: ["./p2pclient", "-l", "xiangruixcd@gmail.com"]
+    command: ["./p2pclient", "-l", "${email}"]
