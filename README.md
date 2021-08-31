@@ -1,6 +1,6 @@
 # peer2profit
 
-GitHub [coreff/peer2profit](https://github.com/coreff/peer2profit), modified from GitHub [chasing66/peer2profit](https://github.com/chasing66/peer2profit)
+GitHub [coreff/peer2profit](https://github.com/coreff/peer2profit), modified from GitHub [chasing66/peer2profit](https://github.com/chasing66/peer2profit)  
 Docker [coreff/peer2profit](https://hub.docker.com/r/coreff/peer2profit), forked from Docker [enwaiax/peer2profit](https://hub.docker.com/r/enwaiax/peer2profit)
 > *docker image support for AMD64
 
