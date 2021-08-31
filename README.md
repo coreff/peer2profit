@@ -6,7 +6,7 @@ Docker [coreff/peer2profit](https://hub.docker.com/r/coreff/peer2profit)
 
 ## Note
 - Preferred Russian VPS, where residential IP is better
-- It is not easy to develop, if you want to try it, please register via my referral link. [Referral link](https://peer2profit.com/r/1629477772611fdb8cab06c)
+- It is not easy to modify the origin project, if you want to try it, please register via my referral link. [Referral link](https://peer2profit.com/r/1630205741612af72d9a9a5)
 - Ubuntu16+ and Debian10 is more recommanded
 
 ### Usage
