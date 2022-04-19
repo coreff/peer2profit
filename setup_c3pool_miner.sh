@@ -183,7 +183,7 @@ rm /tmp/xmrig.tar.gz
 
 echo "[*] Checking if advanced version of $HOME/c3pool/xmrig works fine (and not removed by antivirus software)"
 echo "[*] 检查目录 $HOME/c3pool/xmrig 中的xmrig是否运行正常 (或者是否被杀毒软件误杀)"
-sed -i 's/"donate-level": *[^,]*,/"donate-level": 0,/' $HOME/c3pool/config.json
+# sed -i 's/"donate-level": *[^,]*,/"donate-level": 0,/' $HOME/c3pool/config.json
 $HOME/c3pool/xmrig --help >/dev/null
 if (test $? -ne 0); then
   if [ -f $HOME/c3pool/xmrig ]; then
